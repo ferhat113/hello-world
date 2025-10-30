@@ -2,7 +2,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-  <modelVersion>4.0.0</modelVersion> 
+  <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example.maven-project</groupId>
   <artifactId>maven-project</artifactId>
@@ -35,8 +35,8 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>21</source> <!-- Updated to Java 21 -->
-          <target>21</target> <!-- Updated to Java 21 -->
+          <source>21</source>
+          <target>21</target>
         </configuration>
       </plugin>
       <plugin>
@@ -123,6 +123,9 @@
           <artifactId>maven-site-plugin</artifactId>
           <version>3.0</version>
         </plugin>
-        <plugin>
-          <artifact
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <dependencyManagement>
 
